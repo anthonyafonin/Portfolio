@@ -10,13 +10,18 @@
     <meta name="keywords" content="Anthony,Afonin,Anthony Afonin,Resume,Portfolio,aafonin" />
     <meta name="city" content="Woodburn" />
     <meta name="country" content="US" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" />
+
     <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" >
+    
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-
+
 </head>
 <body>
 
