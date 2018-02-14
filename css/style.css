@@ -98,6 +98,20 @@ ul {
 		width: 275px;
 		padding: 0px;
 	}
+    li.brand-nav.active a:after{
+     content: " ";
+     display: block;
+     width: 0;
+     height: 0;
+     border-top: 20px solid transparent;
+     border-bottom: 20px solid transparent;
+     border-left: 9px solid #333;
+     position: absolute;
+     top: 50%;
+     margin-top: -20px;
+     left: 100%;
+     z-index: 2;
+ }
 }
 
 img {
@@ -211,24 +225,25 @@ body {
 }
 
 
-.nav-container .social-block{
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    margin: 5px;
+@media(min-width: 992px){
+    .nav-container .social-block{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        padding-left: 20px;
+    }
 }
 .nav-container .social-block h3{
-    margin-bottom: 0px;
-    margin-left: 15px;
+    margin: 0px;
     color: white;
 }
 .nav-container .social-block div{
     display: inline-block;
-    padding: 15px;
+    padding: 10px 20px 20px 0px;
 }
 .nav-container .social-block div a{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
 .nav-container .social-block div a:hover{
     color: #333;
