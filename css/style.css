@@ -49,11 +49,16 @@ img {
 	margin: 0px;
 	text-align: center;
 	padding: 50px;
-	background-color: black;
+	background-color: #080808;
 	color: white;
 	text-transform: uppercase;
 	letter-spacing: 0.125em;
 	box-shadow: 0 -2px 50px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media(max-width: 992px){
+	.content .tab-pane > h1{
+		background-color: #333;
+	}
 }
 
 .content .tab-pane .header-text-sm h3{
@@ -206,11 +211,12 @@ img {
 	opacity: .8;
 }
 .header-title h2{
-	font-size: 27px;
+	font-size: 25px;
 }
 .header-title h2,
 .header-title h5{
 	 text-transform: uppercase;
+	     letter-spacing: 2px;
 }
 .navbar-collapse {
 	border-top: 1px solid white !important;
