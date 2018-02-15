@@ -71,7 +71,9 @@ ul {
 	background-color: #080808;
 	box-shadow: 0 -2px 50px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+.nav-pills > li > a > svg{
+	margin-right: 10px;
+}
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
@@ -98,6 +100,7 @@ ul {
 		width: 275px;
 		padding: 0px;
 	}
+	/* Active nav pointer */
     li.brand-nav.active a:after{
      content: " ";
      display: block;
