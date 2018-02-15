@@ -19,6 +19,14 @@ img {
 	height: auto;
 }
 
+.nav-container a:hover,
+.nav-container a img:hover{
+	-o-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-webkit-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+
 /* override bootstrap container */
 .container {
 	width: 100% !important;
@@ -50,8 +58,14 @@ img {
 
 
 /* Resume tab */
+#resume div.resume-img{
+	background-color: lightgrey;
+}
 #resume div.resume-img img{
 	margin: auto;
+}
+#resume div.resume-img img:hover{
+	opacity: .9;
 }
 
 @media(min-width:992px){
@@ -137,10 +151,6 @@ img {
 }
 .header-title img:hover{
 	opacity: .8;
-	-o-transition: opacity .3s ease-out;
-	-moz-transition: opacity .3s ease-out;
-	-webkit-transition: opacity .3s ease-out;
-	transition: opacity .3s ease-out;
 }
 .header-title h2{
 	font-size: 27px;
@@ -203,6 +213,10 @@ img {
 	     margin-top: -20px;
 	     left: 100%;
 	     z-index: 2;
+		 -webkit-animation: fadeInFromNone 0.3s ease-out;
+	 	-moz-animation: fadeInFromNone 0.3s ease-out;
+	 	-o-animation: fadeInFromNone 0.3s ease-out;
+	 	animation: fadeInFromNone 0.3s ease-out;
 	 }
 }
 
