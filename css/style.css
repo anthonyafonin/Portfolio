@@ -26,6 +26,11 @@ img {
 	-webkit-transition: all .3s ease-out;
 	transition: all .3s ease-out;
 }
+@media(max-width: 992px){
+	.nav-container{
+		    margin-top: 46px;
+	}
+}
 
 /* override bootstrap container */
 .container {
