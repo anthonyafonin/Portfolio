@@ -71,6 +71,12 @@ img {
 	}
 }
 
+/* About tab */
+#about > div{
+	position: relative;
+	displaY: inline-block;
+}
+
 /* Portfolio tab */
 
 #portfolio .projects{
