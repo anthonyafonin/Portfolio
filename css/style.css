@@ -39,7 +39,7 @@ img {
 .content .tab-pane > h1{
 	margin: 0px;
 	text-align: center;
-	padding: 50px;
+	padding: 30px;
 	background-color: #080808;
 	color: white;
 	text-transform: uppercase;
@@ -207,7 +207,7 @@ img {
 }
 @media(min-width: 992px){
 	.nav-container{
-		    margin-top: 46px;
+		    margin-top: 7px;
 	}
 }
 
