@@ -280,7 +280,6 @@ img {
 	}
 }
 
-
 /* Display nav on left side above 992px */
 @media (min-width: 992px) {
 	.brand-pills > li > a {
