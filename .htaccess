@@ -1,5 +1,3 @@
-Options +FollowSymLinks
-RewriteEngine On
 RewriteBase /
-RewriteCond %{HTTP_HOST} ^aafonin.netne.net$ [NC]
-RewriteRule ^(.*)$ https://anthonyafonin.github.io/Portfolio/ [R=301,L]
+RewriteEngine On
+RewriteRule ^(.*)$ https://anthonyafonin.github.io/Portfolio/ [R=301]
