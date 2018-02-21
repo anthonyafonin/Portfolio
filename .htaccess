@@ -1,0 +1,1 @@
+RewriteRule ^http://aafonin.netne.net$ https://anthonyafonin.github.io/Portfolio/? [R=301,NC,L]
