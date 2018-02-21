@@ -17,7 +17,7 @@
     <link rel="icon" type="image/png" href="favicon.png" />
     <!-- Site styles -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" >
-    <link rel="stylesheet" href="css/style.css?v=1.25" >
+    <link rel="stylesheet" href="css/style.css?v=1.26" >
     <!-- Site scripts -->
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
@@ -72,17 +72,81 @@
 </header>
 <main class="content">
     <div role="tabpanel" class="tab-content">
-        <div class="tab-pane" id="about">
+        <div class="tab-pane active" id="portfolio">
+            <h1>Portfolio</h1>
+            <div class="projects">
+            	<div class="header-text-sm">
+            		<h3>View the Source Files of My Larger Projects</h3>
+            	</div>
+            	<div class="row">
+                    <div class="col-sm-4">
+            			<div class="box">
+                            <div class="icon"><i class="fa fa-home major"></i></div>
+                        	<h3>BudgetBuilder</h3>
+            				<p>An ASP.NET MVC web application that manages budgets when remodeling buildings.</p>
+                            	<a class="source" href="https://github.com/anthonyafonin/BudgetBuilder" target="_blank">Source</a>
+            			</div>
+            		</div>
+            		<div class="col-sm-4">
+            			<div class="box">
+                            <div class="icon"><i class="fab fa-android major"></i></div>
+            				<h3>Quick Sheets</h3>
+            				<p>An Android Application that allows the user to create time sheets that are stored on a local SQlite database.</p>
+                        	<a class="source" href="https://github.com/anthonyafonin/QuickSheets" target="_blank">Source</a>
+            			</div>
+            		</div>
+                    <div class="col-sm-4">
+            			<div class="box">
+            				<div class="icon"><i class="fa fa-database major"></i></div>
+                            <a href="Projects/LimitlessDatabase/index.php" target="_blank"><h3>Limitless DB</h3></a>
+            				<p>A website that uses PHP and MySQL to assist a construction company in managing their assets.</p>
+                            <a class="source" href="https://github.com/anthonyafonin/LimitlessDB" target="_blank">Source</a>
+            			</div>
+            		</div>
+            	</div>
+            	<div class="row">
+            		<div class="col-sm-4">
+            			<div class="box">
+                            <div class="icon"><i class="fa fa-book major"></i></div>
+            				<h3>MadLibs</h3>
+            				<p>A JavaFX application that tells 3 MadLib stories with the FreeTTS voice API.</p>
+                        	<a class="source" href="https://github.com/anthonyafonin/MadLibs" target="_blank">Source</a>
+            			</div>
+            		</div>
+            		<div class="col-sm-4">
+            			<div class="box">
+                            <div class="icon"><i class="fa fa-cube major"></i></div>
+            				<h3>Threaded Dice</h3>
+            				<p>A JavaFX application that counts the results of two rolled die using threads.</p>
+            				<a class="source" href="https://github.com/anthonyafonin/ThreadedDice" target="_blank">Source</a>
+            			</div>
+            		</div>
+            		<div class="col-sm-4">
+            			<div class="box">
+                            <div class="icon"><i class="fa fa-calculator major"></i></div>
+            				<h3>Calculator</h3>
+            				<p>A Java Calculator application that demonstrates bridged classes.</p>
+                            <a class="source" href="https://github.com/anthonyafonin/Calculator" target="_blank">Source</a>
+            			</div>
+            		</div>
+            	</div>
+            </div>
+        </div>
+        <div class="tab-pane" id="about">
             <h1>About</h1>
+            <div class="header-text-sm">
+                <h3>Learn More About Me</h3>
+            </div>
             <div class="wrapper">
-                <div class="about-me light">
+                <div class="about-me">
+
                     <div class="col-md-6">
                         <div class="item">
                             <h2>Me</h2>
                             <img src="images/me.jpg" alt="Anthony Afonin">
                             <p>
                                 Hello! My name is Anthony Afonin.
-                                I'm a 21 year old software developer and have been interested in computers and technology since I was a child.
+                                I'm a 21 year old software developer and have been interested in technology since I was a child.
                                 I come from a background of blue collar work and am pursuing a career in Software Development.
                             </p>
                         </div>
@@ -95,99 +159,59 @@
                                 I graduated from Chemeketa Community College in June 2017 with my Associate's degree,
                                 majoring in Computer Systems & Information with a Certificate in Computer Programming.
                                 I was also rewarded a certification of completion in Database Design and Programming with SQL.
-                                I was an honor student with an overall cumulative GPA of 3.8.
+                                I was an honor student with a cumulative GPA of 3.8.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="background dark">
+                <div class="background">
                     <div class="col-md-6">
                         <div class="item">
                             <h2>Experience</h2>
                             <img src="images/ds.jpg" alt="" />
                             <p>
-                                orem ipsum dolor sit amet, consectetur adipiscing elit. In eros dolor, laoreet non urna a,
-                                tincidunt pharetra nisl. Sed euismod vulputate turpis, ut cursus tortor elementum eu.
-                                Phasellus scelerisque lorem vitae lectus facilisis congue.
-                                Etiam maximus, dui eget mattis maximus, lorem ipsum lobortis neque, et ia
+                                I am currently employed with Dealer Spike LLC as a Front End Developer / Support Agent.
+                                In my position, I manage client requests by email and phone for products after production.
+                                I work in a team environment to create custom solutions for complex problems.
                             </p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="item">
-                            <h2>Skills</h2>
-                            <img src="https://www.w3schools.com/html/img_responsive_full.png" alt="" />
-                            <p>
-                                Cras convallis arcu quis leo scelerisque, in dictum elit fringilla. Aliquam sit amet mi eu
-                                mauris cursus volutpat vel sed sapien. Etiam congue ultricies sem id commodo.
-                                Sed ac sapien a eros sodales tempor. Proin laoreet pulvinar augue et molestie.
-                                Aliquam erat volutpat. Curabitur consectetur libero a o
-                            </p>
+                        <h2>Skills</h2>
+                        <div class="skills">
+                            <ul class="langs">
+                                <h3>Languages</h3>
+                                <ul>
+                                    <li>Java</li>
+                                    <li>C#</li>
+                                    <li>ASP Classic</li>
+                                    <li>PHP</li>
+                                    <li>SQL</li>
+                                </ul>
+                                <ul>
+                                    <li>Bootstrap</li>
+                                    <li>jQuery</li>
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>LESS</li>
+                                </ul>
+                            </ul>
+                            <ul class="concepts">
+                                <h3>Concepts</h3>
+                                <li>Object-Oriented Programming</li>
+                                <li>Relational Database Design</li>
+                                <li>Responsive Web Design</li>
+                                <li>Object-Relational Mapping</li>
+                                <li>Git Version Control</li>
+                            </ul>
+
+                        </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="tab-pane active" id="portfolio">
-            <h1>Portfolio</h1>
-            <div class="projects light">
-            	<div class="header-text-sm">
-            		<h3>View the Source Files of My Larger Projects</h3>
-            	</div>
-            	<div class="row">
-            		<div class="col-sm-4">
-            			<div class="special box">
-            				<div class="icon"><i class="fa fa-database major"></i></div>
-                            <a href="Projects/LimitlessDatabase/index.php" target="_blank"><h3>Limitless DB</h3></a>
-            				<p>A website that uses PHP and MySQL to assist a construction company in managing their assets.</p>
-                            <a class="source" href="https://github.com/anthonyafonin/LimitlessDB" target="_blank" class="button alt">Source</a>
-            			</div>
-            		</div>
-            		<div class="col-sm-4">
-            			<div class="special box">
-                            <div class="icon"><i class="fab fa-android major"></i></div>
-            				<h3>Quick Sheets</h3>
-            				<p>An Android Application that allows the user to create time sheets that are stored on a local SQlite database.</p>
-                        	<a class="source" href="https://github.com/anthonyafonin/QuickSheets" target="_blank" class="button alt">Source</a>
-            			</div>
-            		</div>
-            		<div class="col-sm-4">
-            			<div class="special box">
-                            <div class="icon"><i class="fa fa-heartbeat major"></i></div>
-                        	<h3>Health Calc</h3>
-            				<p>A Health Application made with Visual Basic that calculates BMI, BMR, and other health factors by using the User's input.</p>
-                            	<a class="source" href="https://github.com/anthonyafonin/HealthCalc" target="_blank" class="button alt">Source</a>
-            			</div>
-            		</div>
-            	</div>
-            	<div class="row">
-            		<div class="col-sm-4">
-            			<div class="special box">
-                            <div class="icon"><i class="fa fa-book major"></i></div>
-            				<h3>MadLibs</h3>
-            				<p>A JavaFX application that tells 3 MadLib stories with the FreeTTS voice API.</p>
-                        	<a class="source" href="https://github.com/anthonyafonin/MadLibs" target="_blank" class="button alt">Source</a>
-            			</div>
-            		</div>
-            		<div class="col-sm-4">
-            			<div class="special box">
-                            <div class="icon"><i class="fa fa-cube major"></i></div>
-            				<h3>Threaded Dice</h3>
-            				<p>A JavaFX application that counts the results of two rolled die using threads.</p>
-            				<a class="source" href="https://github.com/anthonyafonin/ThreadedDice" target="_blank" class="button alt">Source</a>
-            			</div>
-            		</div>
-            		<div class="col-sm-4">
-            			<div class="special box">
-                            <div class="icon"><i class="fa fa-calculator major"></i></div>
-            				<h3>Calculator</h3>
-            				<p>A Java Calculator application that demonstrates bridged classes.</p>
-                            <a class="source" href="https://github.com/anthonyafonin/Calculator" target="_blank"  class="button alt">Source</a>
-            			</div>
-            		</div>
-            	</div>
-            </div>
-        </div>
+        </div>
         <div class="tab-pane" id="resume">
             <div class="resume-img">
                 <a href="resume.pdf" target="_blank" title="Click to download Anthony Afonin's Resume">
@@ -196,11 +220,11 @@
             </div>
         </div>
 	</div>
-</main>
-</body>
-<footer>
     <div class="copyright">
         <p>&copy; Anthony Afonin. All rights reserved.</p>
     </div>
+</main>
+</body>
+<footer>
 </footer>
 </html>
