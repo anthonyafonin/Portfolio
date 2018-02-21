@@ -158,7 +158,9 @@ a:focus{
 	padding: 0px;
 	text-align: left;
 }
-
+#about .wrapper .skills > ul{
+	margin-left: 15px;
+}
 @media(min-width: 1200px){
 	#about .wrapper .skills > ul{
 		width: 40%;
