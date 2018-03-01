@@ -1,3 +1,4 @@
 RewriteBase /
 RewriteEngine On
-RewriteRule ^http://aafonin.netne.net$ https://anthonyafonin.github.io/Portfolio/ [R=301]
+# Redirect root index to github.io
+Redirect 301 ^$ https://anthonyafonin.github.io/Portfolio/
