@@ -1,4 +1,4 @@
 RewriteBase /
 RewriteEngine On
 # Redirect root index to github.io
-Redirect 301 ^$ https://anthonyafonin.github.io/Portfolio/
+Redirect 301 /index.html https://anthonyafonin.github.io/Portfolio/
