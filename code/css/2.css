@@ -74,7 +74,7 @@ a{
 
 @media(min-width: 992px){
   .month .monthDay{
-    width: 28.57%;
+    width: 33.33%;
   }
 }
 @media(min-width: 1200px){
