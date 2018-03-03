@@ -75,6 +75,7 @@ img {
     }
     #employees .employee .about .text .title{
         font-weight: bold;
+        font-size: 20px;
     }
 
     #employees .employee{
@@ -92,4 +93,7 @@ img {
         font-size: 12px;
         line-height: 1.6em;
     }
+    #employees .employee .about .text .title{
+        font-size: 14px;
+    }
 }
