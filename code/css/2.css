@@ -1,0 +1,116 @@
+.container{
+  margin: auto;
+  background-color: #F5F5F5;
+  border-radius: 5px;
+}
+
+.col-lg-12{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+a{
+  text-decoration: none !important;
+  color: black !important;
+}
+.nav-tabs a{
+  font-size: 18px;
+}
+.nav{
+  margin-top: 20px;
+}
+#list{
+    margin-top: 25px;
+    margin-left: -45px;
+}
+#list .item{
+    font-size: 18px;
+    padding: 3px;
+    width: 100%;
+    overflow: hidden;
+}
+#list span{
+    width: 50%;
+    float:left;
+}
+#list span.swimmer{
+    padding-left: 15px;
+}
+#list span.day{
+    text-align: right;
+}
+.month{
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+.month-text h1{
+  margin:0px;
+  padding: 15px;
+  background-color: lightgrey;
+  text-align: center;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+}
+.month .monthDay{
+  display: inline-block;
+  border: 1px solid darkgray;
+  border-top: none;
+  padding: 10px;
+  width: 50%;
+  vertical-align: bottom;
+  background-color: #fff;
+}
+.month .monthDay.jack{
+    background-color: #F5F5F5;
+}
+.month .monthDay.both{
+    background-color: lightskyblue;
+}
+.month-text{
+  position: relative;
+  overflow: hidden;
+  margin-top: 25px;
+  width: 100%;
+}
+
+@media(min-width: 992px){
+  .month .monthDay{
+    width: 28.57%;
+  }
+}
+@media(min-width: 1200px){
+  .month .monthDay{
+    width: 14.285%;
+  }
+}
+
+.month .monthDay .dayOfMonth{
+  font-size: 46px;
+}
+.month .textLabel{
+  font-size: 16px;
+  font-weight: bold;
+  displaY: inline-block;
+  float:right;
+  text-align: center;
+  width: 100%;
+}
+.month .swimmer{
+  display: block;
+  text-align:center;
+  font-size:32px;
+  min-height: 90px;
+  vertical-align: baseline;
+}
+.month-text .toggle{
+      float: right;
+}
+.month-text .toggle:before{
+    display: inline-block;
+    text-align: right;
+    content: '\f077';
+    font-family: 'FontAwesome';
+    font-size: 24px;
+}
+.month-text .collapsed .toggle:before{
+    content: '\f078';
+}

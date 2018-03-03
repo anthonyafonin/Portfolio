@@ -1,0 +1,43 @@
+/* Start Text Alert Container */
+#testContainer .panel-default .panel-heading {
+    background-color: #00cc00;
+    color: white;
+}
+#testContainer .list-group-item a {
+    border: 2px solid #00cc00;
+    color: #00cc00;
+}
+#testContainer .list-group-item a:hover {
+    background-color: #00cc00;
+    color: white;
+}
+/* End Text Alert Container */
+
+/* Start Real Alert Container */
+#realContainer .panel-default .panel-heading {
+    background-color: red;
+    color: white;
+}
+#realContainer .list-group-item a {
+    border: 2px solid red;
+    color: red
+}
+#realContainer .list-group-item a:hover {
+    background-color: red;
+    color: white;
+}
+/* End Real Alert Container */
+
+/* Send button styles */
+.list-group-item a {
+    float: right;
+    padding: 0px 10px;
+    border-radius: 5px;
+    text-transformation: uppercase;
+    text-decoration: none !important;
+}
+/* Modal Styles */
+#myModal .modal-title,
+#myModal .modal-footer #submit {
+    color: white;
+}
