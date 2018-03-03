@@ -12,7 +12,7 @@ var employeeImg,
 var employeeArr = [
     {
         "id"    : '32546',
-        'img'   : '/code/images/me.jpg',
+        'img'   : './images/me.jpg',
         "title" : 'Software Developer',
         "name"  : 'Anthony Afonin',
         "email" : 'anthonyafonin@gmail.com',
@@ -20,7 +20,7 @@ var employeeArr = [
     },
     {
         "id"    : '95746',
-        'img'   : '/code/images/brady.jpg',
+        'img'   : './images/brady.jpg',
         "title" : 'Project Coordinator',
         "name"  : 'Brady Carson',
         "email" : 'brady.carson@gmail.com',
@@ -28,7 +28,7 @@ var employeeArr = [
     },
     {
         "id"    : '84932',
-        'img'   : '/code/images/davis.jpg',
+        'img'   : './images/davis.jpg',
         "title" : 'Lead Developer',
         "name"  : 'Davis Easton',
         "email" : 'davis.easton@gmail.com',
